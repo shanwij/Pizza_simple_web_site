@@ -1,0 +1,167 @@
+body {
+	margin: 0;
+    font-family: Arial ,"Lato" ,sans-serif;
+}
+
+.sdnv {
+    height: 700px;
+    width: 249px;
+    background-color: #373535;
+    overflow-x: hidden;
+	float:left;
+	padding-top: 10px;
+
+}
+
+ #A{
+    padding: 20px 10px 10px 70px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+	
+}
+
+#A:hover {
+    color: #8b8686;
+}
+#logo{
+	float: left;
+	padding-left: 10px;
+	width:220px;
+	padding-bottom: 20px;
+	}
+
+.sdbtn{
+	background-color: #4cf50;
+	border:none;
+	padding: 2px 20px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 2px 1px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	float: right;
+	border-radius: 12px;
+}
+
+.sdbtn1{
+	background-color: white;
+	border: 2px solid #adaaaa;
+	color: black;
+}
+
+.sdbtn1:hover{
+	color:white;
+	background-color: #555;
+}
+
+.sdbtn2{
+	background-color: white;
+	border: 2px solid #adaaaa;
+	color: black;
+}
+
+.sdbtn2:hover{
+	color: white;
+	background-color: #555;
+}
+
+.hdr {
+	
+	background-color: #ffffff;
+	opacity: 0.6;
+	filter: alpha( opacity = 50);
+	padding: 5px 10px 5px 5px;
+	float:left;
+	width:1085px;
+	
+}
+
+.ftr{
+   float:left;
+   width: 100%;
+   background-color: #17202A  ;
+   color: #D5DBDB;
+   text-align: right;
+   padding: 5px;
+   text-margin-bottom: 20px;
+ 
+}
+.ftr p{
+	float:left;
+	margin-left: 20px; 
+	margin-top: 20px;
+	font-size: 10px;
+}
+.socil{
+	width: 30px;
+	margin: 20px;
+}
+
+
+
+//start of Login page IT18132724 made this
+
+.formOne
+{
+	width: 700px;
+	height: 500px;
+	
+
+}
+.formOneField
+{
+	width: 700px;
+	height: 250px;
+	position: fixed;
+	left: 400px;
+	top: 200px;
+	border-radius: 10px;
+}
+.hOne {
+	text-align: center;
+}
+.formOne p{
+	padding-top: 10px; 
+}
+.formOne input:not(.submit){
+	position: absolute;
+	left: 200px;
+	width: 300px;
+	padding: 5px;
+	
+	border-radius: 5px;
+
+	
+
+	
+}
+
+.submit{
+	background-color: #336600;
+	border: none;
+	color: black;
+	float: right;
+	width: 150px;
+	height: 50px;
+	font-size: 20px;
+	font-family: impact;
+	border-radius: 5px;
+}
+
+.submit:hover{
+	color:white;
+	background-color: #555;
+}
+.formOne select{
+	position: absolute;
+	right: 100px;
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+
+}
