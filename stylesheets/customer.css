@@ -1,0 +1,236 @@
+/*THIS IS THE COMMAN CSS*/
+body {
+	margin: 0;
+    font-family: Arial ,"Lato" ,sans-serif;
+}
+
+.sdnv {
+    height: 700px;
+    width: 249px;
+    background-color: #373535;
+    overflow-x: hidden;
+	float:left;
+	padding-top: 10px;
+
+}
+
+ #A{
+    padding: 20px 10px 10px 70px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+	
+}
+
+#A:hover {
+    color: #8b8686;
+}
+#logo{
+	float: left;
+	padding-left: 10px;
+	width:220px;
+	padding-bottom: 20px;
+	}
+
+.sdbtn{
+	background-color: #4cf50;
+	border:none;
+	padding: 2px 20px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 2px 1px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	float: right;
+	border-radius: 12px;
+}
+
+.sdbtn1{
+	background-color: white;
+	border: 2px solid #adaaaa;
+	color: black;
+}
+
+.sdbtn1:hover{
+	color:white;
+	background-color: #555;
+}
+
+.sdbtn2{
+	background-color: white;
+	border: 2px solid #adaaaa;
+	color: black;
+}
+
+.sdbtn2:hover{
+	color: white;
+	background-color: #555;
+}
+
+.hdr {
+	
+	background-color: #ffffff;
+	opacity: 0.6;
+	filter: alpha( opacity = 50);
+	padding: 5px 10px 5px 5px;
+	float:left;
+	width:1085px;
+	
+}
+
+.ftr{
+   float:left;
+   width: 100%;
+   background-color: #17202A  ;
+   color: #D5DBDB;
+   text-align: right;
+   padding: 5px;
+   text-margin-bottom: 20px;
+   position: absolute;
+   top: 100%;
+   
+}
+.ftr p{
+	float:left;
+	margin-left: 20px; 
+	margin-top: 20px;
+	font-size: 10px;
+}
+.socil{
+	width: 30px;
+	margin: 20px;
+}
+/*--@media only screen (max-width:600px)
+{
+	*/
+	
+
+
+
+	/*this is customer*/
+	
+
+//start of cuztomer page
+
+.pend{
+	width: 800px;
+}
+#pending{
+	width: 800px;
+	position: absolute;
+	left: 600px;
+	top: 50px;
+}
+#pendfield{
+	width: 80%;
+}
+.butpend{
+	position: relative;
+	left: 675px;
+	bottom: 50px;
+}
+
+.butpend input[type=submit]{
+	background-color: blue;
+	border: none;
+	color: black;
+	
+	font-size: 20px;
+	font-family: impact;
+	border-radius: 5px;
+
+
+}
+.butpend .oderOk:hover{
+	background-color: green;
+	
+
+
+}
+.butpend .oderCansel:hover{
+	background-color: red;
+	
+
+
+}
+.hitsoryOder{
+	width: 800px;
+}
+#fieldOneOderHis{
+	width: 800px;
+	position: absolute;
+	left: 600px;
+	top: 500px;
+}
+#hisOder
+{
+	width: 80%;
+}
+.hisbut{
+	position: relative;
+	left: 675px;
+	bottom: 50px;
+}
+
+.detailsBox{
+	width: 300px;
+	height: 100%;
+	position: fixed;
+	left: 245px;
+	top: 0px;
+	background-color: #ccffcc;
+}
+.imageAvt img{
+	width: 100px;
+	position: fixed;
+	left: 350px;
+	top: 50px;
+	border-radius: 100%;
+	background-color: red;
+}
+.avtDet{
+	width: 300px;
+	position: fixed;
+	left: 245px;
+	top: 220px;
+
+}
+.avtDet #avtD{
+	height:400px;
+	width: 260px;
+}
+
+.detailBut{
+	width: 300px;
+	position: fixed;
+	bottom: 0px;
+	left: 255px;
+}
+
+.detailBut input{
+	width: 90%;
+	background-color: green;
+	border: none;
+	color: black;
+	
+	font-size: 20px;
+	font-family: impact;
+	border-radius: 5px;
+
+}
+
+.detailBut input:hover{
+	
+	background-color: yellow;
+	
+	
+	
+	font-size: 30px;
+	
+	border-radius: 20px;
+
+}

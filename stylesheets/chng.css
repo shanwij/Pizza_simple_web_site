@@ -1,0 +1,198 @@
+body {
+	margin: 0;
+    font-family: Arial ,"Lato" ,sans-serif;
+}
+
+#sidebar {
+    height: 700px;
+    width: 249px;
+    background-color: #373535;
+    overflow-x: hidden;
+	float:left;
+	padding-top: 10px;
+	
+}
+
+#sidebar ul.components {
+    padding: 10px 0;
+}
+
+#sidebar ul li a:hover {
+    color:  #8b8686;	
+}
+
+#A {
+    padding: 20px 10px 10px 70px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+	
+}
+
+#A.actv {
+    color: #99A3A4;
+}
+
+#logo{
+	float: left;
+	padding-left: 10px;
+	width:220px;
+	padding-bottom: 20px;
+	}
+
+.sdbtn{
+	background-color: #4cf50;
+	border:none;
+	padding: 2px 20px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 2px 1px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	float: right;
+	border-radius: 12px;
+}
+
+.sdbtn1{
+	background-color: white;
+	border: 2px solid #adaaaa;
+	color: black;
+}
+
+.sdbtn1:hover{
+	color:white;
+	background-color: #555;
+}
+
+.sdbtn2{
+	background-color: white;
+	border: 2px solid #adaaaa;
+	color: black;
+}
+
+.sdbtn2:hover{
+	color: white;
+	background-color: #555;
+}
+
+.hdr {
+	
+	background-color: #ffffff;
+	opacity: 0.6;
+	filter: alpha( opacity = 50);
+	padding: 5px 10px 5px 5px;
+	float:left;
+	width:1083px;
+}
+
+.ftr{
+   float:left;
+   width: 100%;
+   background-color: #17202A  ;
+   color: #D5DBDB;
+   text-align: right;
+}
+.ftr p{
+	float:left;
+    margin-left: 20px; 
+	margin-top: 20px;
+	font-size: 10px;
+}
+.socil{
+	width: 30px;
+	margin: 20px;
+}
+
+ /*----------------form---------------*/
+.changeDet{
+	float: left;
+	width: 500px;
+	padding:30px;
+	margin:30px 250px;
+	background: #FFF;
+	border-radius: 10px;
+	filter: alpha( opacity= 60);
+	opacity: 0.7;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+}
+.changeDet.form{
+	padding: 100px;
+	background: #F8F8F8;
+	border-radius: 6px;
+}
+.changeDet h1{
+	background: #555;
+	padding: 20px 30px 15px 30px;
+	margin: -30px -30px 30px -30px;
+	border-radius: 10px 10px 0 0;
+	color: #fff;
+	font: normal 30px  sans-serif, helvetica;
+
+}
+.changeDet label{
+	display: block;
+	font: 13px Arial, Helvetica, sans-serif;
+	color: black;
+	margin-bottom: 15px;
+	margin-left: 100px;
+}
+.changeDet input[type="text"],
+.changeDet input[type="email"],
+.changeDet input[type="number"],
+.changeDet input[type="password"],
+.changeDet textarea,
+.changeDet select {
+	display: block;
+	box-sizing: border-box;
+	width: 70%;
+	padding: 6px;
+	border-radius: 6px;
+	border: 2px solid #fff;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.9);
+}
+
+
+.changeDet input[type="submit"]{
+	background: #555;
+	padding: 8px 20px 8px 20px;
+	border-radius: 5px;
+	color: #fff;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+	font: normal 'Bitter', serif;
+	font-size: 15px;
+}
+
+.changeDet input[type="Submit"]:hover{
+	background: #2A6881;
+}
+
+
+/*--------------------drag and drop -----------------------*/
+
+div form button{
+  margin: 0;
+  color: #fff;
+  background: #555;
+  width: 80px;
+  height: 35px;
+  border-radius: 4px;
+
+}
+
+/*-------------alert box---------------*/
+#alertbox {
+	background-color: white;
+	text-align: center;
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin-left: 50px;
+	margin-top: 275px;
+	width: calc(100% - 100px);
+	height: calc(100% - 550px);
+}

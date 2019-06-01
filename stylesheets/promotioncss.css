@@ -1,0 +1,144 @@
+body {
+	margin: 0;
+    font-family: Arial ,"Lato" ,sans-serif;
+}
+#sidebar {
+    height: 700px;
+    width: 249px;
+    background-color: #373535;
+    overflow-x: hidden;
+	float:left;
+	padding-top: 10px;
+	
+}
+
+#sidebar ul.components {
+    padding: 10px 0;
+}
+
+#sidebar ul li a:hover {
+    color:  #8b8686;	
+}
+
+#A {
+    padding: 20px 10px 10px 70px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;	
+}
+
+#logo{
+	float: left;
+	padding-left: 10px;
+	width:220px;
+	padding-bottom: 20px;
+	/*opacity: 2;*/
+	}
+
+.sdbtn{
+	background-color: #4cf50;
+	border:none;
+	padding: 2px 20px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 2px 1px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	float: right;
+	border-radius: 12px;
+}
+
+.sdbtn1{
+	background-color: white;
+	border: 2px solid #adaaaa;
+	color: black;
+}
+
+.sdbtn1:hover{
+	color:white;
+	background-color: #555;
+}
+
+.sdbtn2{
+	background-color: white;
+	border: 2px solid #adaaaa;
+	color: black;
+}
+
+.sdbtn2:hover{
+	color: white;
+	background-color: #555;
+}
+	
+.hdr{
+	
+	background-color: #ffffff;
+	opacity: 0.6;
+	filter: alpha( opacity = 50);
+	padding: 5px 10px 5px 5px;
+	float:right;
+	width:1083px;
+}
+
+/* promo */
+.prpzza{
+
+	float:right;
+	width:200px;
+	margin-left:20px;
+	margin-right:50px;
+	margin-top:35px;
+	text-align: center;
+	
+}
+.prpzza h4{
+	 font-size: 25px;
+	 color: white;
+	 margin-top: 1px;
+     background: rgba(0, 0.6, 0, 0.5);
+	 border-radius: 10px;
+}
+.prpzza p{
+	 font-size: 17px;
+	 font-style: bold;
+	 background: rgba(0, 0.6, 0, 0.5);
+	 border-radius: 10px;
+     color: white;
+	 margin-top: -30px;
+	 margin-bottom: 60px;
+     transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+.prpzza:hover {
+    width: 200px;
+    height:200px;
+    -webkit-transform: rotate(359deg); /* Safari */
+    transform: rotate(359deg);
+}
+
+#A.actv {
+    color: #99A3A4;
+}
+
+/* footer  */
+.ftr{
+   float:left;
+   width: 100%;
+   background-color: #17202A  ;
+   color: #D5DBDB;
+   text-align: right;
+   
+}
+.ftr p{
+	float:left;
+    margin-left: 20px; 
+	margin-top: 20px;
+	font-size: 10px;
+}
+.socil{
+	width: 30px;
+	margin: 20px;
+}

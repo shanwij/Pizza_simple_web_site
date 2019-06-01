@@ -1,0 +1,150 @@
+body {
+	margin: 0;
+    font-family: Arial ,"Lato" ,sans-serif;
+}
+/* side navigation  */
+#sidebar {
+    height: 900px;
+    width: 249px;
+    background-color: #373535;
+    overflow-x: hidden;
+	float:left;
+	padding-top: 10px;
+	
+}
+
+#sidebar ul.components {
+    padding: 10px 0;
+}
+
+#sidebar ul li a:hover {
+    color:  #8b8686;	
+}
+
+#A {
+    padding: 20px 10px 10px 70px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;	
+}
+
+#A.actv {
+    color: #99A3A4;
+}
+
+#logo{
+	float: left;
+	padding-left: 10px;
+	width:220px;
+	padding-bottom: 20px;
+	}
+	
+/* side header 2 button */
+.sdbtn{
+	background-color: #4cf50;
+	border:none;
+	padding: 2px 20px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 2px 1px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	float: right;
+	border-radius: 12px;
+}
+
+.sdbtn1{
+	background-color: white;
+	border: 2px solid #adaaaa;
+	color: black;
+}
+
+.sdbtn1:hover{
+	color:white;
+	background-color: #555;
+}
+
+.sdbtn2{
+	background-color: white;
+	border: 2px solid #adaaaa;
+	color: black;
+}
+
+.sdbtn2:hover{
+	color: white;
+	background-color: #555;
+}
+
+	
+.hdr {
+	
+	background-color: #ffffff;
+	opacity: 0.6;
+	filter: alpha( opacity = 50);
+	padding: 5px 10px 5px 5px;
+	float:left;
+	width:1085px;
+}
+
+/*about us*/
+.abt{
+	float:left;
+	background-color: white;
+	border: 1px solid white;
+	opacity: 0.7;
+	filter: alpha (opacity=60);
+	border-radius: 12px;
+	width: 1000px;
+	margin: 40px;
+}
+.abt p{
+	color: black;
+	margin: 10px;
+
+}
+/* contact numbers 4 boxes*/
+.numbox{
+	margin: 10px;
+	background-color: black;
+	border: 1px solid white;
+	opacity: 0.4;
+	filter: alpha (opacity=60);
+	float: left;
+	border-radius: 12px;
+	box-align: justify;
+}
+
+.numbox p{
+	margin: 20px;
+	font-weight: bold;
+	color: white;
+} 
+.actv:hover{
+	color: #555;
+}
+/* footer  */
+.ftr{
+   float:left;
+   width: 100%;
+   background-color: #17202A  ;
+   color: #D5DBDB;
+   text-align: right;
+   
+}
+.ftr p{
+	float:left;
+    margin-left: 20px; 
+	margin-top: 20px;
+	font-size: 10px;
+}
+.socil{
+	width: 30px;
+	margin: 20px;
+}
+   
+
+	

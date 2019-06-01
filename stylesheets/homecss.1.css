@@ -1,0 +1,171 @@
+body {
+	margin: 0;
+    font-family: Arial ,"Lato" ,sans-serif;
+}
+
+.sdnv {
+    height: 700px;
+    width: 249px;
+    background-color: #373535;
+    overflow-x: hidden;
+	float:left;
+	padding-top: 10px;
+
+}
+
+.sdnv a {
+    padding: 20px 10px 10px 70px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+	
+}
+
+.sdnv a:hover {
+    color: #8b8686;
+}
+#logo{
+	float: left;
+	padding-left: 10px;
+	width:220px;
+	padding-bottom: 20px;
+	}
+
+.sdbtn{
+	background-color: #4cf50;
+	border:none;
+	padding: 2px 20px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 2px 1px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	float: right;
+	border-radius: 12px;
+}
+
+.sdbtn1{
+	background-color: white;
+	border: 2px solid #adaaaa;
+	color: black;
+}
+
+.sdbtn1:hover{
+	color:white;
+	background-color: #555;
+}
+
+.sdbtn2{
+	background-color: white;
+	border: 2px solid #adaaaa;
+	color: black;
+}
+
+.sdbtn2:hover{
+	color: white;
+	background-color: #555;
+}
+
+
+.hdr {
+	
+	background-color: #ffffff;
+	opacity: 0.6;
+	filter: alpha( opacity = 50);
+	padding: 5px 10px 5px 5px;
+	float:left;
+	width:1085px;
+}
+
+/*menu list*/
+.button{
+	background-color: white ;
+	border:none;
+	padding: 12px 60px;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 6px 20px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border: 2px solid;
+	float: left;
+	
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 gray, 0 17px 50px 0 gray;
+} 
+
+#but{
+	text-decoration: none;
+	float:left;
+	left: 300px;
+	top: 80px;
+}
+/*end of menu list*/
+
+/*customize buttons*/
+.cusbtn{
+	background-color: white ;
+	border:none;
+	width: 96px;
+	padding: 8px 49px;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin-left: 60px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border: 2px solid #4caf50;
+}
+
+.cusbtn.1{
+	float:right;
+	width:200px;
+	margin-left:20px;
+	margin-right:50px;
+	margin-top:35px;
+	text-align: center;
+}
+.cusb1{
+	float:right;
+	width:200px;
+	margin-left:20px;
+	margin-right:50px;
+	margin-top:35px;
+	text-align: center;
+}
+.cusb1 p{
+	 font-size: 25px;
+	 color: white;
+	 margin-top: 1px;
+     background: rgba(0, 0.6, 0, 0.5);
+	 border-radius: 10px;
+}
+}
+/*end of customize buttons*/
+
+
+.m{
+	width:10%;
+	border-radius:12px;
+	}
+
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	display:block;
+	width: 150px;
+	height:150px;
+	margin: auto;
+	text-align: center;
+	font-family: arial;
+}
